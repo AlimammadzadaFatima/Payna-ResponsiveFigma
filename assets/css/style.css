@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.menu .list-menu{
+    width: 33%;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    
+}
+ .buton{
+    width: 150px;
+    height: 49px;
+    background-color: #F5F6FB;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 20px;
+    border: 1px solid blue;
+}
+header{
+    padding: 50px 0;
+}
+.row-head{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.text-header{
+    width: 50%;
+}
+.text-header h2{
+    font-size: 55px;
+}
+.text-header p{
+    font-size: 16px;
+    padding: 30px 0;
+}
+.text-header .buton, .video-text .buton{
+    background-color: blue;
+}
+.text-header .buton a, .video-text .buton a{
+    color: white;
+}
+.img-header {
+    width: 50%;
+    position: relative;
+}
+.img-header .header-image {
+width: 100%;
+border-radius: 40px;
+}
+.report{
+    width: 170px;
+    height: 120px;
+    background-color: #fff;
+    box-shadow: -7px 9px 18px 0px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    z-index: 20;
+    padding: 0 10px;
+    border-radius: 10px;
+    top: 30%;
+    left: -50px;
+}
+.export{
+    width: 170px;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 7px 9px 18px 0px rgba(0, 0, 0, 0.05);    position: absolute;
+    z-index: 20;
+    padding: 0 10px;
+    border-radius: 10px;
+    top: 50px;
+    left: 80%;
+}
+.report .icon, .export .icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.bold{
+    font-weight: 700;
+}
+.report .icon i, .export .icon i{
+    width: 40px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+.icon p{
+    font-size: 10px;
+}
+.report img{
+    width: 100%;
+}
+#sec-1 .row-2 {
+    display: flex;
+    width: 100%;
+    padding: 30px 0;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sec-1-text{
+    width: 30%;
+}
+.sec-1-text p{
+    width: 40%;
+}
+.social-media{
+    width: 70%;
+}
+.social-media img{
+    width: 19%;
+    padding: 20px;
+}
+#sec-2 .center-text{
+    text-align: center;
+    padding: 50px 0;
+
+}
+.center-text h5{
+    color: #F75C4E;
+}
+.center-text h4{
+    font-size: 36px;
+}
+.center-text p{
+    width: 40%;
+    margin: auto;
+}
+.card {
+    display: flex;
+    width: 28%;
+    padding: 20px;
+}
+.row-3{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.card i{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    background-color:pink;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    
+}
+.card-text{
+    padding: 0 15px;
+}
+.card h6{
+    font-size: 20px;
+}
+.row-4{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.video-img{
+width: 50%;
+position: relative;
+}
+.video-img img{
+    padding: 20px;
+    width: 100%;
+    border-radius: 30px;
+}
+.video-img i{
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
+    background-color: rgb(224, 223, 223);
+    text-align: center;
+    line-height: 70px;
+    border-radius: 50%;
+    color: blue;
+    position: absolute;
+    z-index: 10;
+    inset: 45%;
+}
+.video-text{
+    width: 35%;
+    padding: 0 20px;
+}
+.video-text h6{
+    color: #F75C4E;
+}
+.video-text h5{
+    font-size: 36px;
+}
+.video-text p{
+    padding: 15px 0;
+}
+.video-btn{
+    display: flex;
+    width: 90%;
+    position: relative;
+    padding: 20px 0;
+}
+.video-btn input{
+    width: 100%;
+   padding: 15px;
+   border-radius: 20px;
+   outline: none;
+   background-color: #F5F6FB;
+   border: 2px solid #F5F6FB;
+}
+.video-btn .buton{
+    position: absolute;
+    left: 70%;
+    z-index: 50;
+}
